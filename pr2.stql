@@ -1,0 +1,1 @@
+SELECT foo.ttl WHERE OBJECT == true AND SUBJECT == http://www.cw.org/#problem2

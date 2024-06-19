@@ -1,0 +1,15 @@
+EDIT
+	SELECT foo.ttl WHERE OBJECT < 0 OR OBJECT > 99 :
+	OBJECT = false
+	AND
+	PREDICATE = http://www.cw.org/problem5/#inRange
+
+EDIT
+	SELECT foo.ttl WHERE OBJECT >= 0 AND OBJECT <= 99 :
+	PREDICATE = http://www.cw.org/problem5/#inRange
+	AND
+	OBJECT = true
+
+EDIT
+	SELECT foo.ttl WHERE OBJECT >= 0 AND OBJECT <= 99 :
+	MAP +1 OBJECTS
